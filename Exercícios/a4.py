@@ -1,0 +1,25 @@
+1
+print ('desafio 1')
+nome0= input('Qual é o seu nome?')
+print ('Olá', nome0,'! Prazer em te conhecer')
+idade= input('Nós informe sua idade ?')
+peso= input('Qual seu peso?')
+print ('Obrigado pelas informações', nome0)
+2
+print ('')
+print ('deafio 2')
+print ('Nós informe sua data de nascimento')
+dia0= input('Dia:')
+mes0= input('Mês:')
+ano0= input('Ano:')
+print ('Você nasceu no dia', dia0, 'do', mes0, 'de', ano0, 'correto?')
+corr= input(':')
+print ('Obrigado pelas informações', nome0)
+3
+print ('')
+print ('desafio 3')
+print ('Faça um calculo')
+p1= int (input ('Primeiro Numero:'))
+p2= int (input('Segundo Numero:'))
+soma0= p1+p2
+print ('O resultado do seu calculo deu', soma0)

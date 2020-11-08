@@ -1,0 +1,16 @@
+nome1= input('Qual seu nome?')
+
+preço= float (input('Digite o valor do produto? R$'))
+c= preço - (preço * 5 / 100)
+print('O valor do produto era R${}. Com o desconto de 5%, passou a ser R${}'.format(preço, c))
+print ('')
+preço2= float (input('Digite o valor para resgatar seu desconto. R$:'))
+c2= preço2 - (preço2 * 75 / 100)
+print ('Você ganhou um desconto de 75%, antes custava R${}, agora custa R${}'.format(preço2, c2))
+
+print ('')
+preço3= float (input('Nós informe quanto você ganha. R$:'))
+print ('Parabens {}, você ganhou um aumento de 63%'.format(nome1))
+aumento= preço3 + (preço3 * 63 / 100)
+print('Seu salario agora é de R${}'.format(aumento))
+print('')
